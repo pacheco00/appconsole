@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: myservice
+spec:
+  selector:
+    app: appstatic
+  ports:
+  - port: 80
+    targetPort: 80
+  type: LoadBalancer
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: appstatic
+spec:
+  selector:
+    matchLabels:
+      app: appstatic
+  template:
+    metadata:
+      labels:
+        app: appstatic
+    spec:
+      containers:
+      - name: appstatic
+        image: acrvefe.azurecr.io/clase/appstatic:1.0.0
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "500Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
