@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\egar2\\Desktop\\appconsole\\eventhubCap9\\EvenhubTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3581CE0E-5E43-4308-8F1F-15822A348DCA}|EvenhubTest\\EvenhubTest.csproj|c:\\users\\egar2\\desktop\\appconsole\\eventhubcap9\\evenhubtest\\evenhubtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3581CE0E-5E43-4308-8F1F-15822A348DCA}|EvenhubTest\\EvenhubTest.csproj|solutionrelative:evenhubtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\egar2\\Desktop\\appconsole\\eventhubCap9\\EvenhubTest\\EvenhubTest\\Program.cs",
+              "RelativeDocumentMoniker": "EvenhubTest\\Program.cs",
+              "ToolTip": "C:\\Users\\egar2\\Desktop\\appconsole\\eventhubCap9\\EvenhubTest\\EvenhubTest\\Program.cs",
+              "RelativeToolTip": "EvenhubTest\\Program.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAxwFoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T01:18:44.68Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
